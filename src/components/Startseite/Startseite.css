@@ -1,0 +1,115 @@
+.startseite__body{
+    margin-top: 4rem;
+}
+
+.startseite__banner{
+    width: 100%;
+    height: calc(100vh - 4rem);
+    background-image: url('./assets/khang.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 15%;
+    display: table;
+}
+
+.startseite__banner h2{
+    color: white;
+    font-size: 60px;
+    text-shadow: 3px 3px #111;
+    font-family: Catamaran;
+    text-align: center;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.startseite__banner h1{
+    color: white;
+    font-size: 28px;
+    font-family: Cormorant Garamond;
+    text-shadow: 2px 2px #111;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+
+.vertical-center{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.startseite__boxes div{
+    margin: 20px;
+    background-color: rgb(230, 230, 230);
+    height: 100px;
+}
+
+.startseite__boxes div h3{
+    color: #111;
+    font-size: 25px;
+    font-family: Catamaran;
+    text-align: center;
+    font-weight: 500;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 694px) and (max-width: 1024px){
+    .startseite__banner{
+        width: 100%;
+        background-image: url('./assets/japan.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: table;
+    }
+
+    .startseite__boxes{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        overflow: hidden;
+    }
+
+    .startseite__boxes div{
+        margin: 10px 10px;
+        height: 200px;
+        float: left;
+    }
+
+    .startseite__boxes{
+        width: 100%;
+    }
+
+    .startseite__boxes div h3{
+        font-size: large;
+    }
+}
+
+
+/*Desktop*/
+@media only screen and (min-width: 1025px){
+    .startseite__banner{
+        width: 100%;
+        background-image: url('./assets/japan.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: table;
+    }
+
+    .startseite__boxes{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        overflow: hidden;
+    }
+
+    .startseite__boxes div{
+        margin: 10px 10px;
+        height: 200px;
+        float: left;
+    }
+
+    .startseite__boxes{
+        width: calc(100% - 10rem);
+        margin-left: 5rem;
+    }
+}

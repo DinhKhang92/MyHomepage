@@ -1,0 +1,19 @@
+.skills__container{
+    margin-top: 4rem;
+    min-height: calc(100vh - 4rem - 4rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills__description{
+    font-size: 1.4rem;
+    color: #111;
+    max-width: 800px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 20px 0px;
+}

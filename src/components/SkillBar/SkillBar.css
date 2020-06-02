@@ -1,0 +1,218 @@
+.skillbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div[class^='skillbar__tag-']{
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 50%, 0% 0%);
+    width: 110px;
+    height: 20px;
+    background-color: rgba(30, 30, 30, 1);
+    margin-right: 10px;
+    margin-bottom: 1.5rem;
+}
+
+div[class^='skillbar__tag-'] p{
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 1.1rem;
+}
+
+.skillbar__progressbar{
+    position: relative;
+    width: 60%;
+    height: 20px;
+    border: 2px solid rgb(30, 30, 30);
+    border-radius: 20px;
+    background-color: rgba(245,245,245, 0.5);
+}
+
+.skillbar div[class^='skillbar__bar']{
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 0;
+    height: 14px;
+    background-color: rgba(150,150,150, 1);
+    border-radius: 1000px;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+/* ----------- Programming-Skills -----------*/
+
+.skillbar .skillbar__bar-python{
+    animation-name: python;
+}
+
+@keyframes python{
+    to{
+        width: 92%;
+    }
+}
+
+.skillbar .skillbar__bar-cplusplus{
+    animation-name: cplusplus;
+}
+
+@keyframes cplusplus{
+    to{
+        width: 85%;
+    }
+}
+
+.skillbar .skillbar__bar-matlab{
+    animation-name: matlab;
+}
+
+@keyframes matlab{
+    to{
+        width: 80%;
+    }
+}
+
+.skillbar .skillbar__bar-dart{
+    animation-name: dart;
+}
+
+@keyframes dart{
+    to{
+        width: 72%;
+    }
+}
+
+.skillbar .skillbar__bar-java{
+    animation-name: java;
+}
+
+@keyframes java{
+    to{
+        width: 67%;
+    }
+}
+
+/* ----------- Web-Skills -----------*/
+
+.skillbar .skillbar__bar-html{
+    animation-name: html;
+}
+
+@keyframes html{
+    to{
+        width: 87%;
+    }
+}
+
+.skillbar .skillbar__bar-css{
+    animation-name: css;
+}
+
+@keyframes css{
+    to{
+        width: 72%;
+    }
+}
+
+.skillbar .skillbar__bar-javascript{
+    animation-name: javascript;
+}
+
+@keyframes javascript{
+    to{
+        width: 83%;
+    }
+}
+
+.skillbar .skillbar__bar-react{
+    animation-name: react;
+}
+
+@keyframes react{
+    to{
+        width: 78%;
+    }
+}
+
+/* ----------- Framework-Skills -----------*/
+
+.skillbar .skillbar__bar-tensorflow{
+    animation-name: tensorflow;
+}
+
+@keyframes tensorflow{
+    to{
+        width: 85%;
+    }
+}
+
+.skillbar .skillbar__bar-caffe{
+    animation-name: caffe;
+}
+
+@keyframes caffe{
+    to{
+        width: 49%;
+    }
+}
+
+.skillbar .skillbar__bar-qt{
+    animation-name: qt;
+}
+
+@keyframes qt{
+    to{
+        width: 73%;
+    }
+}
+
+/* ----------- Persönlichkeit-Skills -----------*/
+
+.skillbar .skillbar__bar-kommunikationsfähigkeit{
+    animation-name: kommunikationsfähigkeit;
+}
+
+@keyframes kommunikationsfähigkeit{
+    to{
+        width: 95%;
+    }
+}
+
+.skillbar .skillbar__bar-teamfähigkeit{
+    animation-name: teamfähigkeit;
+}
+
+@keyframes teamfähigkeit{
+    to{
+        width: 93%;
+    }
+}
+
+.skillbar .skillbar__bar-organisationsfähigkeit{
+    animation-name: organisationsfähigkeit;
+}
+
+@keyframes organisationsfähigkeit{
+    to{
+        width: 90%;
+    }
+}
+
+.skillbar .skillbar__bar-stressresistenz{
+    animation-name: stressresistenz;
+}
+
+@keyframes stressresistenz{
+    to{
+        width: 88%;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .skillbar__progressbar{
+        width: 70%;
+    }
+}

@@ -1,0 +1,58 @@
+.impressum__body{
+    margin-top: 4rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.impressum__body h1{
+    margin-top: calc(4rem + 20px);
+    margin-bottom: 20px;
+}
+
+.impressum__body h2{
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.impressum__body h3{
+    margin: 12px 0;
+    font-weight: 500;
+}
+
+.impressum__body #mail{
+    text-decoration: none;
+    color: #111;
+}
+
+.impressum__body p{
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.impressum__body ul{
+    list-style-position: inside;
+    margin-left: 20px;
+}
+
+.impressum__body ul li{
+    font-size: 18px;
+}
+
+.impressum__body a:visited{
+    color: blue;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px){
+    .impressum__body{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .impressum__body{
+        margin-left: 5.1rem;
+        margin-right: 5.1rem;
+    }
+}

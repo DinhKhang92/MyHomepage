@@ -1,0 +1,26 @@
+.boxlink__square a, .boxlink__rectangle a, .boxlink__bar a{
+    text-decoration: none;
+}
+
+/*Tablets and Desktop*/
+@media only screen and (min-width: 694px){
+    .boxlink__square, .boxlink__rectangle, .boxlink__bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxlink__square{
+        width: calc(20% - 20px) !important;
+
+    }
+
+    .boxlink__rectangle{
+        width: calc(60% - 20px) !important;
+
+    }
+
+    .boxlink__bar{
+        width: calc(80% - 20px) !important;
+    }
+}

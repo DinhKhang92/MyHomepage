@@ -1,0 +1,92 @@
+.skillbarcharacter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skillbarcharacter__progressbar{
+    position: relative;
+    width: calc(110px + 10px + 60%);
+    height: 24px;
+    border: 2px solid rgb(30, 30, 30);
+    border-radius: 20px;
+    background-color: rgba(245,245,245, 0.5);
+    margin-bottom: 1.5rem;
+}
+
+.skillbarcharacter div[class^='skillbarcharacter__bar']{
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 0;
+    height: 18px;
+    background-color: rgba(150,150,150, 1);
+    border-radius: 1000px;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.skillbarcharacter div[class^='skillbarcharacter__bar'] p{
+    font-weight: 600;
+    padding-left: 3px;
+}
+
+/* ----------- Soft-Skills -----------*/
+
+.skillbarcharacter .skillbarcharacter__bar-kommunikationsfähigkeit{
+    animation-name: kommunikationsfähigkeit;
+}
+
+@keyframes kommunikationsfähigkeit{
+    to{
+        width: 93%;
+    }
+}
+
+.skillbarcharacter .skillbarcharacter__bar-teamfähigkeit{
+    animation-name: teamfähigkeit;
+}
+
+@keyframes teamfähigkeit{
+    to{
+        width: 99%;
+    }
+}
+
+.skillbarcharacter .skillbarcharacter__bar-organisationsfähigkeit{
+    animation-name: organisationsfähigkeit;
+}
+
+@keyframes organisationsfähigkeit{
+    to{
+        width: 91%;
+    }
+}
+
+.skillbarcharacter .skillbarcharacter__bar-stressresistenz{
+    animation-name: stressresistenz;
+}
+
+@keyframes stressresistenz{
+    to{
+        width: 90%;
+    }
+}
+
+.skillbarcharacter .skillbarcharacter__bar-problemlösefähigkeit{
+    animation-name: problemlösefähigkeit;
+}
+
+@keyframes problemlösefähigkeit{
+    to{
+        width: 92%;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+    .skillbarcharacter__progressbar{
+        width: calc(110px + 10px + 70%);
+    }
+}
