@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.486cd509.chunk.css",
+    "main.js": "/static/js/main.4e4686ed.chunk.js",
+    "main.js.map": "/static/js/main.4e4686ed.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f8505dc8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f8505dc8.js.map",
+    "static/js/2.d7f32153.chunk.js": "/static/js/2.d7f32153.chunk.js",
+    "static/js/2.d7f32153.chunk.js.map": "/static/js/2.d7f32153.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c9dbdf24d6fe1c69257c9ef14e8bae3e.js": "/precache-manifest.c9dbdf24d6fe1c69257c9ef14e8bae3e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.486cd509.chunk.css.map": "/static/css/main.486cd509.chunk.css.map",
+    "static/js/2.d7f32153.chunk.js.LICENSE.txt": "/static/js/2.d7f32153.chunk.js.LICENSE.txt",
+    "static/media/BildKhang.jpg": "/static/media/BildKhang.ab93403f.jpg",
+    "static/media/SitKrit.png": "/static/media/SitKrit.dd9f1cf1.png",
+    "static/media/TradedexLogo.png": "/static/media/TradedexLogo.a2fe2e96.png",
+    "static/media/Startseite.css": "/static/media/khang.0d20e970.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8505dc8.js",
+    "static/js/2.d7f32153.chunk.js",
+    "static/css/main.486cd509.chunk.css",
+    "static/js/main.4e4686ed.chunk.js"
+  ]
+}
