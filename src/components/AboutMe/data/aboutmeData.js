@@ -12,7 +12,7 @@ const aboutmeData = [
         date: "Juni 2019 - Dezember 2019",
         title: "Carmeq GmbH",
         subtitle: "Masterand - Algorithmenentwicklung",
-        text: 'In Richtung "Autonomes Fahren" habe ich als Masterand in Zusammenarbeit mit der Carmeq GmbH bei der Identifikation von kritischen Situationen im Straßenverkehr geforscht.',
+        text: 'Im Kontext "Autonomes Fahren" habe ich als Masterand in Zusammenarbeit mit der Carmeq GmbH bei der Identifikation von kritischen Situationen im Straßenverkehr geforscht.',
         icon: "WorkIcon"
     },
 	    {
