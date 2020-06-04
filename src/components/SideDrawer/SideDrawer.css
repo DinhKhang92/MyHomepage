@@ -34,12 +34,10 @@
 
 .side-drawer li{
     width: calc(100% - 6rem);
-    border: solid;
+    border: solid 2px rgb(100,100,100);
     border-top: none;
     border-right: none;
     border-left: none;
-    border-width: 2px;
-    border-color: rgb(100,100,100);
     padding: 1rem 0;
     margin-left: 3rem;
 }
