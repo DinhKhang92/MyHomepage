@@ -15,21 +15,28 @@ function getSkills(skillData){
     return skills
 }
 
-function Skills(){
-    const webSkills = getSkills(webSkillData)
-    const programmingSkills = getSkills(programmingSkillData)
-    const ideSkills = getSkills(frameworkSkillData)
+class Skills extends React.Component{
 
-    return(
-        <div className="skills__container">
-            <p className="skills__description"> Programmierkenntnisse </p>
-            {programmingSkills}
-            <p className="skills__description"> Webkenntnisse </p>
-            {webSkills}
-            <p className="skills__description"> Frameworks </p>
-            {ideSkills}
-        </div>
-    )
+    componentDidMount(){
+        window.scrollTo(0, 0);
+    }
+
+    render(){
+        const webSkills = getSkills(webSkillData)
+        const programmingSkills = getSkills(programmingSkillData)
+        const ideSkills = getSkills(frameworkSkillData)
+
+        return(
+            <div className="skills__container">
+                <p className="skills__description"> Programmierkenntnisse </p>
+                {programmingSkills}
+                <p className="skills__description"> Webkenntnisse </p>
+                {webSkills}
+                <p className="skills__description"> Frameworks </p>
+                {ideSkills}
+            </div>
+        )
+    }
 }
 
 export default Skills
